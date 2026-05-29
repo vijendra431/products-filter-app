@@ -1,0 +1,98 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.search-container {
+  background-color: #f1f5f9;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input {
+  border: none;
+  outline: none;
+  color: #0f172a;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.category-heading {
+  color: #12022f;
+  font-family: Bree Serif;
+  font-weight: bold;
+}
+
+.rating-heading {
+  color: #12022f;
+  font-family: Bree Serif;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.category-list {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.buttons {
+  background-color: transparent;
+  border: none;
+  color: #64748b;
+  font-family: Roboto;
+}
+
+.rating-list {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.rating-images {
+  height: 40px;
+  width: 220px;
+}
+
+.rating-buttons {
+  background-color: transparent;
+  border: none;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.active-color {
+  color: #0967d2;
+  font-family: Bree Serif;
+  font-weight: bold;
+}
+
+.clear-button {
+  color: #0967d2;
+  font-weight: bold;
+  font-family: Bree Serif;
+  border-radius: 3px;
+  padding: 10px;
+  border-color: #0967d2;
+  border-width: 1px;
+  background-color: transparent;
+  margin-top: 20px;
+}
